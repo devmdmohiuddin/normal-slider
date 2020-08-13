@@ -1,0 +1,38 @@
+.slide {
+	width: 600px;
+	height: 400px;
+	background: #f1f1f1;
+	margin: 0 auto;
+	position: relative;
+	background-image: url('../img/slide-0.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.btn {
+	border: 1px solid #fff;
+	background: #000;
+	color: #fff;
+	padding: .5rem 1rem;
+	border-radius: .5rem;
+	position: absolute;
+	cursor: pointer;
+}
+.btn-prev {
+	top: 50%;
+	left: 0;
+	transform: translate(-50%, -50%);
+
+}
+.btn-next {
+	top: 50%;
+	right: 0;
+	transform: translate(50%, -50%);
+
+}
+.btn:hover {
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
